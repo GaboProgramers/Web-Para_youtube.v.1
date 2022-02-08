@@ -227,6 +227,10 @@ body.dark .sidebar li a:hover .text{
     transition: var(--tran-05);
 }
 
+.menu-bar .menu .menu-links .nav-link abbr {
+    text-decoration: none;
+}
+
 .menu-bar .mode .sun-moon{
     height: 50px;
     width: 60px;
