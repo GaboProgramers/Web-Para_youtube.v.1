@@ -120,6 +120,17 @@ form .input-box span.details{
   /* transform: scale(0.99); */
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
   }
+
+  .container .content .option1 {
+      font-size: 14px;
+      text-align: center;
+  }
+  
+  .container .content .option1 a {
+      font-size: 14px;
+      text-decoration: none;
+  }
+
  @media(max-width: 584px){
  .container{
   max-width: 100%;

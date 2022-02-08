@@ -75,7 +75,7 @@
                         </a>
                     </li>
 
-                    <li class="nav-link">
+                    <li class="nav-link wallet">
                         <a href="#">
                             <abbr title="Wallets"><i class='bx bx-wallet icon' ></i></abbr>
                             <span class="text nav-text">Wallets</span>
@@ -121,34 +121,13 @@
         <div class="text">Dashboard Sidebar</div>
     </section>
 
-    <script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
     
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
+    <!-- Scripts -->
 
+    
+    <script src="app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetAlert.js"></script>
+    
 </body>
 </html>
