@@ -9,9 +9,8 @@ function alert() {
                 iconColor: '#000',
                 width: '50%',
                 confirmButtonColor: '#000',
-                position: 'top-right',
                 background: '#ff3',
-                timer: '3000',
+                timer: '5000',
                 timerProgressBar: 'true'
             });
         })

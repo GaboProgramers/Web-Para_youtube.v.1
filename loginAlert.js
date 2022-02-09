@@ -7,9 +7,8 @@ function alert() {
                 text: 'Por Favor Complete Los Campos Requeridos',
                 icon: 'warning',
                 iconColor: '#000',
-                width: '50%',
+                width: '30%',
                 confirmButtonColor: '#000',
-                position: 'top-right',
                 background: '#fff',
                 timer: '3000',
                 timerProgressBar: 'true'
@@ -31,9 +30,8 @@ function alert() {
                 text: 'Por Favor Complete Los Campos Requeridos',
                 icon: 'warning',
                 iconColor: '#000',
-                width: '50%',
+                width: '30%',
                 confirmButtonColor: '#000',
-                position: 'top-right',
                 background: '#fff',
                 timer: '3000',
                 timerProgressBar: 'true'
