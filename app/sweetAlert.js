@@ -7,11 +7,19 @@ function alert() {
                 text: 'Esta Seccion Aun No Esta Activa',
                 icon: 'warning',
                 iconColor: '#000',
-                width: '50%',
-                confirmButtonColor: '#000',
-                background: '#ff3',
+                width: '30%',
+                confirmButtonText:'Confirmar',
+                padding: '2rem',
                 timer: '5000',
-                timerProgressBar: 'true'
+                position: 'center',
+                footer: '<b class="rojo">Pronto Nuevas Actualizaciones</b>',
+                customClass: {
+                    popup: 'popup-alert'
+                },
+                allowOutsideClick: false,
+                allowEscapeKey: false,
+                allowEnterKey:  false,
+                stopKeydownPropagation: false,
             });
         })
     })

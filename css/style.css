@@ -34,6 +34,20 @@ body{
     color: #fff;
 }
 
+/* stylos de alerta */
+
+.rojo {
+    color: rgb(237, 50, 50);
+    font-family: monospace;
+}
+
+.popup-alert {
+    border-radius: 20px !important;
+}
+
+/* fin de los estylos
+ */
+
 body.dark{
     --body-color: #18191a;
     --sidebar-color: #242526;
@@ -225,6 +239,10 @@ body.dark .sidebar li a:hover .text{
     background-color: var(--primary-color-light);
     position: relative;
     transition: var(--tran-05);
+}
+
+.menu-bar .menu .search-box abbr {
+    text-decoration: none;
 }
 
 .menu-bar .menu .menu-links .nav-link abbr {
