@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-  <!-- Coding by CodingLab | www.codinglabweb.com -->
+<!-- Coding by CodingLab | www.codinglabweb.com -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NuevosIngresos</title>
-    
+
     <!----======== CSS ======== -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-mini-juegos.css">
-    
+
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
+
 </head>
-<body>
+
+<body class="body-juegos">
     <nav class="sidebar close">
         <header>
             <div class="image-text">
@@ -43,14 +44,14 @@
                 <ul class="menu-links">
                     <li class="nav-link">
                         <a href="#">
-                            <abbr title="Inicio"><i class='bx bx-home-alt icon' ></i></abbr>
+                            <abbr title="Inicio"><i class='bx bx-home-alt icon'></i></abbr>
                             <span class="text nav-text">Inicio</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <abbr title="Cursos"><i class='bx bx-bar-chart-alt-2 icon' ></i></abbr>
+                            <abbr title="Cursos"><i class='bx bx-bar-chart-alt-2 icon'></i></abbr>
                             <span class="text nav-text">Cursos</span>
                         </a>
                     </li>
@@ -64,13 +65,13 @@
 
                     <li class="nav-link">
                         <a href="#">
-                            <abbr title="Analisis"><i class='bx bx-pie-chart-alt icon' ></i></abbr>
+                            <abbr title="Analisis"><i class='bx bx-pie-chart-alt icon'></i></abbr>
                             <span class="text nav-text">Analisis</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="mini-juegos.html">
+                        <a href="#">
                             <abbr title="Mini Juegos"><i class='bx bx-game icon'></i></i></abbr>
                             <span class="text nav-text">Mini Juegos</span>
                         </a>
@@ -78,11 +79,11 @@
 
                     <li class="nav-link wallet">
                         <a href="#">
-                            <abbr title="Wallets"><i class='bx bx-wallet icon' ></i></abbr>
+                            <abbr title="Wallets"><i class='bx bx-wallet icon'></i></abbr>
                             <span class="text nav-text">Wallets</span>
                         </a>
                     </li>
-                    
+
                     <li class="nav-link">
                         <a href="login-registro.html">
                             <abbr title="Iniciar Sesion"><i class='bx bx-user-circle icon'></i></abbr>
@@ -96,7 +97,7 @@
             <div class="bottom-content">
                 <li class="">
                     <a href="#">
-                        <i class='bx bx-log-out icon' ></i>
+                        <i class='bx bx-log-out icon'></i>
                         <span class="text nav-text">Logout</span>
                     </a>
                 </li>
@@ -112,23 +113,50 @@
                         <span class="switch"></span>
                     </div>
                 </li>
-                
+
             </div>
         </div>
 
     </nav>
 
-    <section class="home">
-        <div class="text">NuevosIngresos</div>
-    </section>
+    <!-- Seccion Mini Juegos  -->
 
-    
+<section class="home">
+    <div class="text">NuevosIngresos</div>
+        <div class="galeria">
+            <h1>Mini - Juegos</h1>
+            <div class="linea"></div>
+            <div class="contenedor-imagenes">
+                <div class="imagen">
+                    <img src="img/juego-de-gemas.jpg" alt="juego de gemas">
+                    <div class="overley">
+                        <a href="juego-gemas/gemas.html"><h2>JUGAR</h2></a>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="img/juego-de-gemas.jpg" alt="busqueda del tesoro">
+                    <div class="overley">
+                        <a href="juego-de-gemas-2/index.html"><h2>JUGAR (1)</h2></a>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="img/treasuremap.png" alt="busqueda del tesoro">
+                    <div class="overley">
+                        <a href="mapa-del-tesoro/index.html"><h2>JUGAR</h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
     <!-- Scripts -->
 
-    
+
     <script src="app/app.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="app/sweetAlert.js"></script>
-    
+
 </body>
+
 </html>

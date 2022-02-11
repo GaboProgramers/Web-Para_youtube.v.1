@@ -7,7 +7,6 @@ function alert() {
                 text: 'Esta Seccion Aun No Esta Activa',
                 icon: 'warning',
                 iconColor: '#000',
-                width: '30%',
                 confirmButtonText:'Confirmar',
                 padding: '2rem',
                 timer: '5000',
