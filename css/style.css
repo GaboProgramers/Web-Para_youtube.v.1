@@ -12,12 +12,12 @@
 
 :root{
     /* ===== Colors ===== */
-    --body-color: #E4E9F7;
+    --body-color: rgba(101, 153, 186, 0.9);
     --sidebar-color: #FFF;
-    --primary-color: #695CFE;
+    --primary-color: rgba(101, 153, 186, 0.9);
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
-    --text-color: #707070;
+    --text-color: #000000;
     --mini-juegos: #000;
 
     /* ====== Transition ====== */
@@ -57,7 +57,7 @@ body.dark{
     --primary-color: #3a3b3c;
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
-    --text-color: #ccc;
+    --text-color: #fff;
 }
 
 /* ===== Sidebar ===== */
@@ -68,6 +68,7 @@ body.dark{
     height: 100%;
     width: 250px;
     padding: 10px 14px;
+    border-right: 2px solid #000;
     background: var(--sidebar-color);
     transition: var(--tran-05);
     z-index: 100;  
@@ -160,19 +161,21 @@ header .image-text .profession{
     transform: translateY(-50%) rotate(180deg);
     height: 25px;
     width: 25px;
-    background-color: var(--primary-color);
-    color: var(--sidebar-color);
+    background-color: #fff;
+    color: #000;
     border-radius: 50%;
+    border-left: 3px solid #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 30px;
     cursor: pointer;
     transition: var(--tran-05);
 }
 
 body.dark .sidebar header .toggle{
-    color: var(--text-color);
+    color: #000;
+    background-color: #fff;
 }
 
 .sidebar.close .toggle{
@@ -343,7 +346,11 @@ body.dark .home .text{
 .galeria h1 {
     text-align: center;
     margin: 20px 0 15px 0;
-    font-weight: 400;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.galeria .texto {
     color: var(--text-color);
 }
 
