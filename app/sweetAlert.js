@@ -4,12 +4,14 @@ function alert() {
         bottonWallet.addEventListener("click", () => {
             Swal.fire({
                 title: 'Lo Sentimos',
-                text: 'Esta Seccion Aun No Esta Activa',
+                text: 'Esta Seccion Aun No Esta Activa, Dejanos Tu Correo Para Recibir Futuras Actualizaciones',
+                input: 'email',
+                inputPlaceholder: 'EJ. ejemplo@ejemplo.com',
                 icon: 'warning',
                 iconColor: '#000',
-                confirmButtonText:'Confirmar',
+                confirmButtonText:'Enviar',
                 padding: '2rem',
-                timer: '5000',
+                /* timer: '5000', */
                 position: 'center',
                 footer: '<b class="rojo">Pronto Nuevas Actualizaciones</b>',
                 customClass: {
@@ -17,8 +19,12 @@ function alert() {
                 },
                 allowOutsideClick: false,
                 allowEscapeKey: false,
-                allowEnterKey:  false,
+                allowEnterKey:  true,
                 stopKeydownPropagation: false,
+                showCancelButton: true,
+                cancelButtonText: 'Cancelar',
+                cancelButtonColor: 'rgb(237, 50, 50)',
+                cancelButtonAriaLabel: 'boton para cancelar'
             });
         })
     })
