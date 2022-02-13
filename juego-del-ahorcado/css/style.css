@@ -1,0 +1,28 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    background: rgba(0, 118, 192, 0.781);
+}
+h1{
+    text-align: center;
+}
+#pantalla{
+    border: groove 8px gold;
+    background: lightgreen;  
+    border-radius: 15px; 
+}
+#boton{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 3px 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+#boton:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+    background-color: rgb(48, 172, 230);
+    font-size: 20px;
+    border: 2px solid #000;
+}
